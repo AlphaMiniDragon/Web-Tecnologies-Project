@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DelDish</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="recipe_style.css">
+
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/0bd1e8befe.js" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body style="background-image: url(images/themeReverse.jpg);">
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <div class="navbar-header" >
+                <a href="Main.html" class="navbar-brand" style="font-family:'Dancing Script', cursive; font-size: 60px; color: rgb(219, 90, 39);">DelDish</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="Main.html" class="nav-link bg-warning"><i class="fas fa-home" style="color: rgb(219, 90, 39);"></i> Main</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link bg-info"><i class="far fa-address-card" style="color: rgb(219, 90, 39);"></i> About Us</a></li>
+                    <li class="nav-item active"><a href="Recipes.html" class="nav-link" ><i class="fas fa-utensils" style="color: rgb(219, 90, 39);"></i> Recipes</a></li>
+                    <li class="nav-item"><a href="Contacts.html" class="nav-link bg-info" ><i class="fas fa-address-book" style="color: rgb(219, 90, 39);"></i> Contact Us</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link bg-warning"><i class="fas fa-bookmark" style="color: rgb(219, 90, 39);"></i> My Recipes Book</a></li>
+                    <li class="nav-item"><a href="Log_in.html" class="nav-link bg-info"><i class="fas fa-sign-in-alt" style="color: rgb(219, 90, 39);"></i> Login In</a></li>
+                    <li class="nav-item"><i class="fa fa-search" aria-hidden="true" style="color: rgb(219, 90, 39); margin-top: 17px;"></i></li>
+                    <input type="text" class="form-control" placeholder="Search" style="width: 20%; margin-top: 7px;">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+        <div class="container" style="background-color: #fff; border-radius: 10px;">
+            <div class="container-fluid">
+                <div class="row text-center alert" style="background-color: #fff;">
+                    <div class="col-12">
+                        <h1 class="display-4" style="font-family: 'Dancing Script', cursive;; font-size: 60px; color: rgb(219, 90, 39);">Delicious dishes</h1>
+                    </div>
+                    <hr>
+                    <div class="col-12">
+                        <p class="lead" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">A site with a recipe book based on three cuisines: Japanese, Italian and French. Here you can see some recipes with step-by-step instructions for cooking, as well as the ingredients you need for the recipe.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid padding" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <div class="row text-center alert" style="background-image: url(images/flagJapan.jpg); object-fit: contain;">
+                    <div class="col-12">
+                        <h1 class="display-4" style="font-family: 'Brush Script MT', cursive; font-size: 60px; color: rgb(219, 90, 39);">Japanese Food</h1>
+                    </div>
+                </div>
+                <div class="row text-center padding">
+                    <a href="#">
+                        <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                            <img src="images/tempura.jpg" class="card-img-top" alt="">
+                            <div class="card-body">
+                            <h3 class="card-title">ROLL TEMPURA in Home</h3>
+                            <p class="card-text">Delicious, tender, creamy, breaded fried!</p>
+                            <a href="#" class="btn bg-info">Go to recipe</a>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/teriyaki.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">TERIYAKI NOODLES with Vegetables</h3>
+                          <p class="card-text">A vegetable dish with noodles with a pleasant sweetish taste and slight sourness!</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/cheeseBalls.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Rise Balls with Cheese</h3>
+                          <p class="card-text">Original, beautiful, crispy, made from simple products!</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <!-- <div class="col-xs-12 col-sm-6 col-md-4">
+                        <h3>ROLL TEMPURA in Home</h3>
+                        <img src="images/tempura.jpg" alt="">
+                        <p >Delicious, tender, creamy, breaded fried!</p>
+                    </div> -->
+                </div>
+                <hr class="my-4">
+            </div>
+            <div class="container-fluid padding" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <div class="row text-center alert" style="background-image: url(images/flagItalian3.jpg); object-fit: contain;">
+                    <div class="col-12">
+                        <h1 class="display-4" style="font-family: 'Brush Script MT', cursive; font-size: 60px; color: rgb(219, 90, 39);">Italian Food</h1>
+                    </div>
+                </div>
+                <div class="row text-center padding">
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/calzone.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Pizza CALZONE</h3>
+                          <p class="card-text">Italian "closed" pizza that retains aroma and juice inside itself.</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/spaghetti.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Spaghetti with Mushrooms in Cream Sauce</h3>
+                          <p class="card-text">A very simple and tasty dish for lovers of Italian cuisine.</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/carbonara.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">SPAGHETTI CARBONARA CLASSIC</h3>
+                          <p class="card-text">Very tasty and simple, in a hurry, for dinner for a family!</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                </div>
+                <hr class="my-4">
+            </div>
+            <div class="container-fluid padding" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <div class="row text-center alert" style="background-image: url(images/flagFrench.png); object-fit: contain;">
+                    <div class="col-12" >
+                        <h1 class="display-4" style="font-family: 'Brush Script MT', cursive; font-size: 60px; color: rgb(219, 90, 39);">French Food</h1>
+                    </div>
+                </div>
+                <div class="row text-center padding">
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/potato.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Potato with Meat in oven</h3>
+                          <p class="card-text">Delicious simple products for the whole family!</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/fricase.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Classic Fricase</h3>
+                          <p class="card-text">Fricassee is a stew made from white chicken meat.</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                    <div class="card col-xs-12 col-sm-6 col-md-4" style="max-width: 350px; background-color: #ffc107;">
+                        <img src="images/criossants.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <h3 class="card-title">Criossants with Chocolate soft Leaflet passion</h3>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn bg-info">Go to recipe</a>
+                        </div>
+                    </div>
+                <hr class="my-4">
+            </div>
+        </div>
+    </div>
+    
+
+    <footer class="container-fluid">
+        <div class="container-fluid">
+            <div class="row padding text-center">
+                <div class="col-12">
+                    <h2>Social Media</h2>
+                </div>
+                <div class="col-12 social padding">
+                    <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2021 Copyright:
+                <a class="text-white" href="#">IITU.kz</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- <blockquote class="blockquote-reverse">
+        lflflf
+        <footer>Steve Jobs!</footer>
+    </blockquote> -->
+    
+</body>
+</html>

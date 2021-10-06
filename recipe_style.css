@@ -82,3 +82,53 @@ footer{
     text-shadow: 1px 1px 10px black;
 }
 
+.myform{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+    margin-top: 12%;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 1.1rem;
+    outline: 0;
+    max-width: 500px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.padding{
+    padding-bottom: 2em;
+}
+
+.alert hr{
+    border-top: 2px solid silver;
+    width: 95%;
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+
+.card img{
+    margin-top: 10px;
+    border-radius: 10px;
+    max-height: 211px;
+}
+
+.card{
+    margin: 0.9%;
+    
+}
+
+.card a{
+    color:black;
+}
+
+.card a:hover{
+    color: rgb(219, 90, 39);
+    text-decoration: none;
+}
