@@ -79,7 +79,8 @@ footer{
 
 .mb-4{
     color: #ffffff;
-    text-shadow: 1px 1px 10px black;
+    /* text-shadow: 1px 1px 10px black; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .myform{
@@ -115,13 +116,13 @@ footer{
 
 .card img{
     margin-top: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     max-height: 211px;
 }
 
 .card{
     margin: 0.9%;
-    
+    border-radius: 30px !important;
 }
 
 .card a{
