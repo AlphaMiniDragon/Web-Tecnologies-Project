@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 
     <!-- Connect to CSS file -->
-    <link rel="stylesheet" href="recipe_style.css">
+    <link rel="stylesheet" href="css/recipe_style.css">
 
     <!-- Font-awesome icons -->
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -65,6 +65,7 @@
         </div>
     </nav>
 
+    
     <!-- Slider -->
     <div class="carousel slide" data-ride="carousel" id="slides">
         <ul class="carousel-indicators">
@@ -134,5 +135,34 @@
         </div>
     </footer>
     
+
+    <!-- <script>
+        $.expr[':'].internal = function (obj) {
+    return (obj.hostname == location.hostname);
+};
+
+$.expr[':'].external = function (obj) {
+    return (obj.hostname != location.hostname);
+};
+
+$("a:internal").click(ajaxLinkHandler);
+
+    function ajaxLinkHandler() {
+       $.get($(this).attr("href"), function(data) {
+       $('body').html(data);
+     });
+}
+
+$(document).on('a', 'click', function (e) {
+    e.preventDefault();
+    // perform your AJAX
+});
+    </script> -->
+    
+    <script src="swup.min.js"></script>
+    <script src="swup.js"></script>
+    <script>
+        const swup = new Swup();
+    </script>
 </body>
 </html>
