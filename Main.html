@@ -23,6 +23,7 @@
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.1.min.js"></script>
 
 <!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -134,35 +135,9 @@
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript" src="loadPage.js"></script>
     
-
-    <!-- <script>
-        $.expr[':'].internal = function (obj) {
-    return (obj.hostname == location.hostname);
-};
-
-$.expr[':'].external = function (obj) {
-    return (obj.hostname != location.hostname);
-};
-
-$("a:internal").click(ajaxLinkHandler);
-
-    function ajaxLinkHandler() {
-       $.get($(this).attr("href"), function(data) {
-       $('body').html(data);
-     });
-}
-
-$(document).on('a', 'click', function (e) {
-    e.preventDefault();
-    // perform your AJAX
-});
-    </script> -->
     
-    <script src="swup.min.js"></script>
-    <script src="swup.js"></script>
-    <script>
-        const swup = new Swup();
-    </script>
 </body>
 </html>
